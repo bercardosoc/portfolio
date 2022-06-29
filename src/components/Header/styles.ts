@@ -6,7 +6,8 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
-font-family: 'Varsity';
+font-family: monospace;
+padding: 1rem;
 
 img {
     width: 5rem;
