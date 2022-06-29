@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Varsity";
+    src: local("Varsity"), url(./fonts/varsity_regular.ttf), format("truetype");
+
+    font-family: "Academy";
+    src: local("Academy"), url(./fonts/Academy.ttf), format("truetype");
+
+    font-family: "Academy filled";
+    src: local("Academy filled"), url(./fonts/AcademyFilled3D.ttf), format("truetype");
+
+    font-family: "Rio Grande";
+    src: local("Rio Grande"), url(./fonts/RioGrande.ttf), format("truetype");
+
+    font-family: "Texas";
+    src: local("Texas"), url(./fonts/TEXAT\ BOLD\ PERSONAL\ USE___.otf), format("truetype");
+}
+
+/* @font-face {
+    font-family: "Academy";
+    src: local("Academy"), url(./fonts/Academy.ttf), format("truetype");
+}
+
+@font-face {
+    font-family: "Academy filled";
+    src: local("Academy filled"), url(./fonts/AcademyFilled3D.ttf), format("truetype");
+}
+
+@font-face {
+    font-family: "Rio Grande";
+    src: local("Rio Grande"), url(./fonts/RioGrande.ttf), format("truetype");
+}
+
+@font-face {
+    font-family: "Texas";
+    src: local("Texas"), url(./fonts/TEXAT\ BOLD\ PERSONAL\ USE___.otf), format("truetype");
+} */
