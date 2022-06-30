@@ -1,4 +1,5 @@
 import { AboutMe } from "../../components/AboutMe"
+import { Contacts } from "../../components/Contacts"
 import { GroupProjects } from "../../components/GroupProjects"
 import { Header } from "../../components/Header"
 import { MyTechs } from "../../components/MyTechs"
@@ -12,6 +13,7 @@ export const Main = () => {
             <AboutMe/>
             <MyTechs/>
             <GroupProjects/>
+            <Contacts/>
         </>
     )
 }
