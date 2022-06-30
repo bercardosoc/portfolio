@@ -41,6 +41,7 @@ export const Box = styled.div`
 export const Content = styled.div`
 
     display: flex;
+    justify-content: center;
     flex-direction: row;
     margin: 2rem 3rem;
 
