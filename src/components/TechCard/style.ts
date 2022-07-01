@@ -12,6 +12,7 @@ export const Container = styled.div`
 
     img {
         width: 2.5rem;
+        margin-bottom: 0.5rem;
     }
 
     @media screen and (min-width: 768px) {

@@ -16,7 +16,7 @@ import { Box, Container, Content, Wrap } from "./styled"
 export const MyTechs = () => {
 
     return (
-    <Container>
+    <Container id="myTechs" >
         <h2>Minhas tecnologias</h2>
         <Wrap>
         <Box>

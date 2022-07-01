@@ -14,18 +14,19 @@ export const Header = () => {
 
     return (
         <Container>
-            <h1>Bernardo Costa</h1>
+            <h1> Bernardo Costa</h1>
             {
                 width < 768 ? (
                     <img 
                         src={Burger}
+                        alt= "Burger bar"
                         onClick={handleToggle}
                     />
                 ) : (
                     <Content>
-                        <a href="#">Tecnologias</a>
-                        <a href="#">Projetos</a>
-                        <a href="#">Contato</a>
+                        <a href="#myTechs">Tecnologias</a>
+                        <a href="#myProjects">Projetos</a>
+                        <a href="#contacts">Contato</a>
                     </Content>
                 )
             }

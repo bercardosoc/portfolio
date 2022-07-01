@@ -3,7 +3,7 @@ import { Container, Content } from "./style"
 
 export const GroupProjects = () => {
     return (
-        <Container>
+        <Container id="myProjects" >
             <h2>Meus principais projetos</h2>
             <Content>
             <ProjectCard 
@@ -24,7 +24,7 @@ export const GroupProjects = () => {
                     link={"https://github.com/lcsreiser/pollutants-recycling"} 
                     title={"Find Recipes - Front"} 
                     description={"Front-end da aplicação onde você pode encontrar os receitas a partir dos ingredientes que você tem na dispensa, podendo também encontrar todas elas, seja por categoria, tempo ou porção."} 
-                    techs={"React + TypeScript; Chakra UI; Teact testing library"}
+                    techs={"React + TypeScript; Chakra UI; React testing library"}
             />
 
             </Content>

@@ -5,6 +5,10 @@ export const Container = styled.div`
 background-color: #5BCEFA;
 padding: 2.5rem;
 
+h2 {
+    margin-bottom: 2.5rem;
+}
+
 `
 
 export const Content = styled.div`

@@ -13,12 +13,31 @@ body {
     font-family: monospace;
 }
 
-h2, h3, h4 {
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h2, h3, h4, span {
     text-align: center;
 }
 
 p {
     text-indent: 5%;
+    font-size: 1rem;
 }
 
 button{

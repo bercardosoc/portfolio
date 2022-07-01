@@ -25,6 +25,10 @@ export const Content = styled.div`
         border-radius: 100%;
         width: 15rem;
     }
+
+    @media screen and (min-width: 768px) {
+        width: 50%;
+    }
 `
 
 export const Text = styled.div`

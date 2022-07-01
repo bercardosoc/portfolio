@@ -6,6 +6,14 @@ padding: 2.5rem;
 
 `
 
+export const Box = styled.div`
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+`
+
 export const Content = styled.div`
 
     display: flex;
@@ -14,7 +22,7 @@ export const Content = styled.div`
     justify-content: center;
 
     a {
-        margin: 1rem;
+        margin: 1rem 2.5rem;
     }
 
     img {
