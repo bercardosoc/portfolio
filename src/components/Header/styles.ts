@@ -17,6 +17,14 @@ img {
 }
 
 `
+
+export const Title = styled.div`
+
+    display: flex;
+    flex-direction: column;
+
+`
+
 export const Content = styled.div`
 
 display: flex;

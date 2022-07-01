@@ -18,15 +18,22 @@ h2 {
 export const Content = styled.div`
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-
+    
+    
     img {
         border-radius: 100%;
         width: 15rem;
+        margin-bottom: 1rem;
+    }
+    
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        width: 75%;
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1340px) {
         width: 50%;
     }
 `

@@ -16,6 +16,14 @@ body {
 h1 {
     font-size: 3rem;
     font-weight: bolder;
+
+    @media screen and (max-width: 768px) {
+        font-size: 2.5rem;
+    }
+
+    @media screen and (max-width: 360px) {
+        font-size: 2rem;
+    }
 }
 
 h2 {
