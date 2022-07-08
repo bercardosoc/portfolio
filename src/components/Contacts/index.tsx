@@ -33,10 +33,10 @@ export const Contacts = () => {
                 </Box>
 
                 <Box>
-                <a href="https://twitter.com/berCostaDev" target="_blank" >
+                <a href="https://twitter.com/thehermitcoder" target="_blank" >
                     <img src={Twitter} />
                 </a>
-                <span>@bernardoCostaDev</span>
+                <span>@thehermitcoder</span>
                 </Box>
             </Content>
         </Container>
